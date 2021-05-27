@@ -1,7 +1,6 @@
 import numpy as np
 import pickle
 from flask import Flask, request, render_template
-from flask_ngrok import run_with_ngrok
 
 # Load ML model
 model = pickle.load(open('model.pkl', 'rb'))
